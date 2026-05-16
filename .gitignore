@@ -1,0 +1,141 @@
+# ============================================
+# ARQUIVOS MÉDICOS SENSÍVEIS (CRÍTICO!)
+# ============================================
+*.dcm                    # Arquivos DICOM com dados de pacientes
+*.nii                    # Arquivos NIfTI de ressonância
+*.nii.gz
+*.mhd
+*.raw                    # Imagens médicas brutas
+dicom/
+images/
+patient_data/
+medical_records/
+
+# ============================================
+# DADOS DE TREINAMENTO E MODELOS
+# ============================================
+*.pkl                    # Modelos treinados (podem conter vieses)
+*.h5                     # Modelos Keras/TensorFlow
+*.joblib
+*.onnx
+*.pt                    # Modelos PyTorch
+*.pth
+models/
+checkpoints/
+*.log                    # Logs de treinamento
+
+# ============================================
+# ARQUIVOS DE CONFIGURAÇÃO (com credenciais)
+# ============================================
+.env                    # Variáveis de ambiente (API keys, senhas)
+.env.local
+.env.*.local
+config.py
+secrets.py
+credentials.json
+*.key
+*.pem
+*.crt
+
+# ============================================
+# AMBIENTES VIRTUAIS E DEPENDÊNCIAS
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ============================================
+# EDITORES E IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.sln
+*.csproj
+
+# ============================================
+# STREAMLIT ESPECÍFICO
+# ============================================
+.streamlit/secrets.toml   # CREDENCIAIS! NUNCA COMMIT!
+.streamlit/config.toml    # Pode conter senhas
+*.streamlitlog
+.cache/                    # Cache do Streamlit
+.cache_streamlit/
+
+# ============================================
+# LOGS E MÉTRICAS
+# ============================================
+*.log
+logs/
+*.out
+*.err
+metrics_report.csv
+test_results/
+validation_outputs/
+
+# ============================================
+# ARQUIVOS TEMPORÁRIOS
+# ============================================
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.backup
+*.old
+
+# ============================================
+# JUPYTER (se usar)
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+*.pyc
+
+# ============================================
+# RELATÓRIOS GERADOS (não versionar)
+# ============================================
+*.pdf
+*.html
+relatorios/
+figuras_geradas/
+matriz_confusao.png
+curva_roc.png
+
+# ============================================
+# SISTEMAS OPERACIONAIS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# DOCKER
+# ============================================
+*.pid
+docker-compose.override.yml
+.dockerignore
