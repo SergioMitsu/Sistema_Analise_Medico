@@ -49,7 +49,7 @@ class CNNClassifier:
         
         prediction = self.model.predict(img_array, verbose=0)[0][0]
         
-        is_anomaly = bool(prediction > 0.5)
+        is_anomaly = bool(prediction < 0.5)
         
         confidence = float(prediction if is_anomaly else 1 - prediction) * 100
         
