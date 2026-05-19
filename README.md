@@ -91,40 +91,21 @@
 ---
 
 ## 🏗️ Arquitetura do Sistema
-┌─────────────────────────────────────────────────────────────┐
-│ INTERFACE (Streamlit) │
-│ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
-│ │ Upload │ │ Preview │ │ Analyze │ │ Export │ │
-│ └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘ │
-└───────┼────────────┼────────────┼────────────┼─────────────┘
-│ │ │ │
-▼ ▼ ▼ ▼
-┌─────────────────────────────────────────────────────────────┐
-│ BACKEND (Processamento) │
-│ ┌──────────────────────────────────────────────────────┐ │
-│ │ 1. Validação → 2. Pré-processamento → 3. Segmentação │ │
-│ │ 4. Features → 5. Classificação → 6. Métricas │ │
-│ └──────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ MODELOS (ML/DL) │
-│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ │
-│ │Random Forest │ │ SVM (futuro)│ │ CNN (futuro)│ │
-│ └──────────────┘ └──────────────┘ └──────────────┘ │
-└─────────────────────────────────────────────────────────────┘
 
+## 🏗️ Arquitetura do Sistema
 
-### Fluxo de Dados:
-1. **Upload** → Arquivo (JPG/PNG/DICOM)
-2. **Validação** → Verificação de formato e integridade
-3. **Anonimização** → Remoção de metadados
-4. **Pré-processamento** → Cinza, redimensionamento, Gaussian blur
-5. **Segmentação** → Otsu threshold + Canny
-6. **Extração** → Contornos, áreas, perímetros
-7. **Classificação** → Random Forest (sintético)
-8. **Exportação** → PDF com laudo completo
+### Fluxo de Processamento
+
+| Etapa | Componente | Tecnologia | Status |
+|-------|------------|------------|--------|
+| 1 | Upload de Imagem | Streamlit | ✅ |
+| 2 | Validação | Python | ✅ |
+| 3 | Pré-processamento | OpenCV | ✅ |
+| 4 | Segmentação | Otsu + Canny | ✅ |
+| 5 | Extração de Features | NumPy/SciPy | ✅ |
+| 6 | Classificação | Random Forest | ✅ |
+| 7 | Métricas | Scikit-learn | ✅ |
+| 8 | Exportação PDF | ReportLab | ✅ |
 
 ---
 
