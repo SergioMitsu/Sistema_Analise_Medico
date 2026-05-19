@@ -215,40 +215,44 @@ Operacionais
 ## 📚 Referências
 
 Bibliotecas Utilizadas
-
+```
     Streamlit - Framework web
     OpenCV - Processamento de imagem
     Scikit-learn - Machine learning
     TensorFlow - Deep learning
     PyDICOM - Imagens médicas
+```
 
 Datasets Públicos (para futuro)
-
+```
     NIH Chest X-Ray
     CheXpert
     MIMIC-CXR
+```
 
 Artigos Científicos
-
+```
     Otsu, N. (1979). "A threshold selection method from gray-level histograms"
     Canny, J. (1986). "A computational approach to edge detection"
     Esteva, A. et al. (2017). "Dermatologist-level classification of skin cancer"
+```
 
 Regulamentação
-
+```
     ANVISA - Software Médico
     FDA - Software as Medical Device (SaMD)
     LGPD - Lei Geral de Proteção de Dados
-
+```
 📧 Contato
-	
+```
 Autor Sergio Mitsushigue
 Curso	Tecnólogo em Inteligência Artificial
 Disciplina	Processamento de Imagem e Sinais
 Instituição	FMU
+```
 
 📄 Licença
-
+```
 Este projeto é open-source para fins educacionais e de pesquisa.
 text
 
@@ -256,5 +260,5 @@ Copyright (c) 2026 SergioMitsu
 
 Permissão é concedida gratuitamente a qualquer pessoa que obtenha uma cópia
 deste software para fins educacionais e de pesquisa, sem restrições.
-
+```
 ---
