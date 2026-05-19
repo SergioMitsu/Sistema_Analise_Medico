@@ -92,8 +92,6 @@
 
 ## 🏗️ Arquitetura do Sistema
 
-## 🏗️ Arquitetura do Sistema
-
 ### Fluxo de Processamento
 
 | Etapa | Componente | Tecnologia | Status |
