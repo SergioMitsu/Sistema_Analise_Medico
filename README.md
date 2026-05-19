@@ -13,14 +13,14 @@
 
 ## 📑 Índice
 
-- [Aviso Ético e Conformidade](##aviso-ético-e-conformidade)
-- [Funcionalidades](##funcionalidades)
-- [Tecnologias Utilizadas](##tecnologias-utilizadas)
-- [Arquitetura do Sistema](##arquitetura-do-sistema)
-- [Como Instalar e Executar](##como-instalar-e-executar)
-- [Métricas de Validação](##métricas-de-validação)
-- [Limitações Conhecidas](##limitações-conhecidas)
-- [Referências](##referências)
+- [Aviso Ético e Conformidade](#-aviso-ético-e-conformidade)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Arquitetura do Sistema](#-arquitetura-do-sistema)
+- [Como Instalar e Executar](#-como-instalar-e-executar)
+- [Métricas de Validação](#-métricas-de-validação)
+- [Limitações Conhecidas](#-limitações-conhecidas)
+- [Referências](#-referências)
 
 ---
 
