@@ -9,7 +9,7 @@ Este é um sistema web funcional projetado para analisar imagens médicas, class
 *   Nenhum dado do paciente é armazenado de forma persistente. Metadados do arquivo (como o nome original) são removidos em tempo de execução para anonimização.
 
 ## Funcionalidades
-- **Upload e Validação:** Suporta JPG e PNG.
+- **Upload e Validação:** Suporta JPG, PNG e DCM. Upload de arquivos em lotes.
 - **Pré-processamento:** Conversão para escala de cinza, normalização de intensidade, redimensionamento mantendo proporção (até 512x512) e remoção de ruídos (Filtro Gaussiano).
 - **Análise & Segmentação:** Utiliza limiarização de Otsu e o algoritmo de Canny para segmentação e detecção de contornos.
 - **Classificador e Métricas:** Extrai features da imagem para classificar usando Random Forest. Uma área exclusiva para métricas com Matriz de Confusão, ROC e F1-Score simulados é fornecida.
