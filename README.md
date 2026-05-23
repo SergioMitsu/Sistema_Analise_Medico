@@ -245,7 +245,7 @@ Regulamentação
 ```
 📧 Contato
 ```
-Autor Sergio Mitsushigue
+Autor Sergio Mitsushigue, Sammy Mitsunori
 Curso	Tecnólogo em Inteligência Artificial
 Disciplina	Processamento de Imagem e Sinais
 Instituição	FMU
